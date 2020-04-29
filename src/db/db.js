@@ -11,7 +11,9 @@ mongoose.connect(process.env.MONGODB_URL, {
 // docker-compose -f stack.yml up
 
 // Enter docker mongo instance
-// docker exec -it 028f0aa57ed5 bash
+// docker exec -it <image> bash
+
+// Access localhost:8081 and create a new DB there named "school"
 
 // Access db
 // use school
